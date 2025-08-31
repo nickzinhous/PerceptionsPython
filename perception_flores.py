@@ -227,7 +227,4 @@ for class_val in [0, 1]:
     if len(points) > 0:
         print(f"  Centroide: [{np.mean(points[:, 0]):.2f}, {np.mean(points[:, 1]):.2f}]")
 
-print("\n=== CONCLUSÃO ===")
-print("O perceptron convergiu com sucesso para classificar as flores!")
-print("Classe 0 (versicolor): flores com pétalas maiores")
-print("Classe 1 (setosa): flores com pétalas menores")
+
